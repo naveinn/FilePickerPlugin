@@ -1,0 +1,24 @@
+{
+    "name": "CalledDecisionCustom",
+    "prefix": "calledDecisionCustom",
+    "uri": "",
+    "xml": {
+      "tagAlias": "lowerCase"
+    },
+    "associations": [],
+    "types": [
+      {
+        "name": "BusinessTaskEcent",
+        "extends": [
+          "bpmn:BusinessRuleTask"
+        ],
+        "properties": [
+          {
+            "name": "calledDecisionCustom",
+            "isAttr": true,
+            "type": "String"
+          }
+        ]
+      }
+    ]
+  }

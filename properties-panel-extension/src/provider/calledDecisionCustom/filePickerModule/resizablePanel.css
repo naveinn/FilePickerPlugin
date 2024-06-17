@@ -1,0 +1,17 @@
+.resizable-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.resizable-panel-content {
+    flex: 1; /* Take up remaining space */
+    overflow-y: auto;
+}
+
+.resizable-panel-handle {
+    width: 10px;
+    cursor: ew-resize;
+    background-color: #ccc;
+}
